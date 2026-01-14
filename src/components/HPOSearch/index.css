@@ -1,0 +1,90 @@
+/* HPO 搜索组件样式 */
+.hpo-search {
+  width: 100%;
+}
+
+.hpo-search-input {
+  width: 100%;
+}
+
+.hpo-search-input .ant-input {
+  border-radius: 6px;
+}
+
+/* 下拉选项样式 */
+.hpo-search-dropdown .ant-select-item-option {
+  padding: 8px 12px !important;
+  height: auto !important;
+}
+
+.hpo-search-option {
+  width: 100%;
+}
+
+.hpo-search-option-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.hpo-name-cn {
+  font-weight: 500;
+  color: #262626;
+  font-size: 14px;
+}
+
+.hpo-name-en {
+  color: #8c8c8c;
+  font-size: 12px;
+}
+
+.hpo-search-option-detail {
+  margin-top: 4px;
+  color: #595959;
+  font-size: 12px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* 加载状态 */
+.hpo-search-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  color: #8c8c8c;
+}
+
+.hpo-search-not-found {
+  padding: 12px;
+  text-align: center;
+  color: #8c8c8c;
+}
+
+/* 选中状态 */
+.hpo-search-dropdown .ant-select-item-option-selected .hpo-name-cn {
+  color: #1677ff;
+}
+
+/* Hover 状态 */
+.hpo-search-dropdown .ant-select-item-option:hover .hpo-search-option {
+  background-color: transparent;
+}
+
+/* 响应式 */
+@media (max-width: 576px) {
+  .hpo-search-option-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hpo-name-en {
+    font-size: 11px;
+  }
+}

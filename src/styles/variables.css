@@ -1,0 +1,117 @@
+:root {
+  /* ========== 主题色 ========== */
+  --color-primary: #1890ff;
+  --color-primary-hover: #40a9ff;
+  --color-primary-active: #096dd9;
+  --color-success: #52c41a;
+  --color-warning: #faad14;
+  --color-error: #ff4d4f;
+  --color-info: #13c2c2;
+
+  /* ========== 中性色 ========== */
+  --color-text-primary: rgba(0, 0, 0, 0.88);
+  --color-text-secondary: rgba(0, 0, 0, 0.65);
+  --color-text-tertiary: rgba(0, 0, 0, 0.45);
+  --color-text-quaternary: rgba(0, 0, 0, 0.25);
+  --color-border: #d9d9d9;
+  --color-border-light: #f0f0f0;
+  --color-bg: #ffffff;
+  --color-bg-secondary: #fafafa;
+  --color-bg-tertiary: #f5f5f5;
+  --color-bg-spot: #e6f4ff;
+
+  /* ========== 高亮色（优化后的和谐色板） ========== */
+  --highlight-1: #ff7875;  /* 红橙 */
+  --highlight-2: #ff9c6e;  /* 橙 */
+  --highlight-3: #ffc53d;  /* 黄 */
+  --highlight-4: #95de64;  /* 黄绿 */
+  --highlight-5: #5cdbd3;  /* 青 */
+  --highlight-6: #69c0ff;  /* 蓝 */
+  --highlight-7: #85a5ff;  /* 靛蓝 */
+  --highlight-8: #b37feb;  /* 紫 */
+
+  /* ========== 间距系统 ========== */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  --spacing-xxl: 32px;
+
+  /* ========== 字体大小 ========== */
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-base: 14px;
+  --font-size-md: 15px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-xxl: 20px;
+
+  /* ========== 行高 ========== */
+  --line-height-sm: 1.4;
+  --line-height-base: 1.57;
+  --line-height-lg: 1.8;
+
+  /* ========== 圆角 ========== */
+  --border-radius-xs: 2px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 6px;
+  --border-radius-lg: 8px;
+  --border-radius-xl: 12px;
+
+  /* ========== 阴影 ========== */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+  /* ========== 布局 ========== */
+  --header-height: 56px;
+  --footer-height: 48px;
+  --max-width: 1200px;
+  --container-padding: 20px;
+
+  /* ========== 过渡动画 ========== */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.2s ease;
+  --transition-slow: 0.3s ease;
+}
+
+/* ========== 暗色模式 ========== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text-primary: rgba(255, 255, 255, 0.88);
+    --color-text-secondary: rgba(255, 255, 255, 0.65);
+    --color-text-tertiary: rgba(255, 255, 255, 0.45);
+    --color-text-quaternary: rgba(255, 255, 255, 0.25);
+    --color-border: #424242;
+    --color-border-light: #303030;
+    --color-bg: #141414;
+    --color-bg-secondary: #1f1f1f;
+    --color-bg-tertiary: #262626;
+    --color-bg-spot: #111b26;
+  }
+}
+
+/* ========== 响应式断点 ========== */
+/* 移动端 */
+@media (max-width: 575px) {
+  :root {
+    --container-padding: 16px;
+    --header-height: 48px;
+  }
+}
+
+/* 平板 */
+@media (min-width: 576px) and (max-width: 1023px) {
+  :root {
+    --container-padding: 20px;
+  }
+}
+
+/* 桌面 */
+@media (min-width: 1024px) {
+  :root {
+    --container-padding: 24px;
+  }
+}
