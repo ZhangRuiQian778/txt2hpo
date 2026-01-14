@@ -47,5 +47,6 @@ hpo_extracted_translated.json
 hpo_extracted.json
 translate_hpo.py
 processed_hpo.json
-
+__pycache__
+docs
 .claude
