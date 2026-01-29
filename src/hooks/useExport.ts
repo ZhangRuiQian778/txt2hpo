@@ -12,7 +12,7 @@ export function useExport() {
     try {
       exportToCSV(data.hpoEntries, filename);
       messageApi.success('CSV文件导出成功');
-    } catch (error) {
+    } catch {
       messageApi.error('导出失败，请检查数据');
     }
   };
@@ -21,7 +21,7 @@ export function useExport() {
     try {
       exportToJSON(data, filename);
       messageApi.success('JSON文件导出成功');
-    } catch (error) {
+    } catch {
       messageApi.error('导出失败，请检查数据');
     }
   };

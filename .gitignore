@@ -50,3 +50,8 @@ processed_hpo.json
 __pycache__
 docs
 .claude
+.codex
+plan
+issues
+AGENTS.md 
+scripts

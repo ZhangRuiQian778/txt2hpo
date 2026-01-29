@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import Fuse from 'fuse.js';
 import type { HPODataItem, HPOSearchOption } from '@/types';
+import { getHpoData } from '@/services/hpoDataStore';
 
 // 默认搜索配置
 const DEFAULT_LIMIT = 20;
@@ -62,11 +63,7 @@ export function useHPOSearch(
     const loadData = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/hpo_data.json');
-        if (!response.ok) {
-          throw new Error(`Failed to load HPO data: ${response.statusText}`);
-        }
-        const data: HPODataItem[] = await response.json();
+        const data: HPODataItem[] = await getHpoData();
         setHpoData(data);
 
         // 初始化 Fuse 实例

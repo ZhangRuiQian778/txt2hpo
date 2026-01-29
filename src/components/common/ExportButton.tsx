@@ -73,7 +73,7 @@ export function ExportButton({ data, disabled }: ExportButtonProps) {
 
     try {
       await navigator.clipboard.writeText(text);
-    } catch (err) {
+    } catch {
       const textArea = document.createElement('textarea');
       textArea.value = text;
       textArea.style.position = 'fixed';

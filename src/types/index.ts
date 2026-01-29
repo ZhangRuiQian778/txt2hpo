@@ -58,6 +58,20 @@ export interface HPODataItem {
   definitionZh: string;
 }
 
+// ========== HPO 分类（public/hpo118_2_excel_friendly.json） ==========
+
+export interface HPOCategoryItem {
+  hpoId: string;
+  nameCn: string;
+}
+
+export interface HPOCategory {
+  categoryId: string;
+  categoryName: string;
+  childCount: number;
+  hpoItems: HPOCategoryItem[];
+}
+
 // 搜索结果项类型（用于 AutoComplete 下拉选项）
 export interface HPOSearchOption {
   value: string;          // 使用 hpoId 作为 value

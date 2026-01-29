@@ -62,9 +62,10 @@ export function useSearchHistory(maxHistory = 10) {
  * 使用转换结果的Hook
  */
 export function useConversionHistory() {
-  const [conversions, setConversions] = useLocalStorage<any[]>('hpo-conversions', []);
+  type ConversionHistoryItem = Record<string, unknown> & { timestamp: string };
+  const [conversions, setConversions] = useLocalStorage<ConversionHistoryItem[]>('hpo-conversions', []);
 
-  const addConversion = (result: any) => {
+  const addConversion = (result: Record<string, unknown>) => {
     setConversions(prev => [
       {
         ...result,

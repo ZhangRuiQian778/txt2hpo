@@ -101,7 +101,7 @@ const HPOSearch = forwardRef<HPOSearchRef, HPOSearchProps>(({
 
   // 处理选择
   const handleSelect = useCallback(
-    (selectedValue: string, option: any) => {
+    (selectedValue: string, option: unknown) => {
       const hpoOption = option as HPOSearchOption;
       setValue(selectedValue);
       setIsOpen(false);

@@ -1,0 +1,679 @@
+[
+  {
+    "categoryId": "HP:0000119",
+    "categoryName": "泌尿生殖系统异常",
+    "childCount": 5,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0000078",
+        "nameCn": "生殖系统异常"
+      },
+      {
+        "hpoId": "HP:0000079",
+        "nameCn": "泌尿系统异常"
+      },
+      {
+        "hpoId": "HP:0007379",
+        "nameCn": "生殖泌尿道的肿瘤"
+      },
+      {
+        "hpoId": "HP:0012620",
+        "nameCn": "泄殖腔异常"
+      },
+      {
+        "hpoId": "HP:0100589",
+        "nameCn": "泌尿生殖道瘘"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0000152",
+    "categoryName": "头部或颈部异常",
+    "childCount": 2,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0000234",
+        "nameCn": "头部异常"
+      },
+      {
+        "hpoId": "HP:0000464",
+        "nameCn": "颈部异常"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0000478",
+    "categoryName": "眼睛异常",
+    "childCount": 2,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0012372",
+        "nameCn": "眼部形态异常"
+      },
+      {
+        "hpoId": "HP:0012373",
+        "nameCn": "眼部生理异常"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0000598",
+    "categoryName": "耳部异常",
+    "childCount": 2,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0031703",
+        "nameCn": "耳部形态异常"
+      },
+      {
+        "hpoId": "HP:0031704",
+        "nameCn": "耳部生理异常"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0000707",
+    "categoryName": "神经系统异常",
+    "childCount": 3,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0012638",
+        "nameCn": "异常神经系统生理"
+      },
+      {
+        "hpoId": "HP:0012639",
+        "nameCn": "神经系统形态异常"
+      },
+      {
+        "hpoId": "HP:0410008",
+        "nameCn": "外周神经系统的异常"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0000769",
+    "categoryName": "乳房异常",
+    "childCount": 2,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0031093",
+        "nameCn": "乳房形态异常"
+      },
+      {
+        "hpoId": "HP:0031094",
+        "nameCn": "乳房生理异常"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0000818",
+    "categoryName": "内分泌系统异常",
+    "childCount": 13,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0000777",
+        "nameCn": "胸腺形态异常"
+      },
+      {
+        "hpoId": "HP:0000819",
+        "nameCn": "糖尿病"
+      },
+      {
+        "hpoId": "HP:0000820",
+        "nameCn": "甲状腺异常"
+      },
+      {
+        "hpoId": "HP:0000828",
+        "nameCn": "甲状旁腺异常"
+      },
+      {
+        "hpoId": "HP:0000834",
+        "nameCn": "肾上腺异常"
+      },
+      {
+        "hpoId": "HP:0000847",
+        "nameCn": "肾素-血管紧张素系统异常"
+      },
+      {
+        "hpoId": "HP:0000864",
+        "nameCn": "下丘脑-垂体轴异常"
+      },
+      {
+        "hpoId": "HP:0000873",
+        "nameCn": "尿崩症"
+      },
+      {
+        "hpoId": "HP:0003117",
+        "nameCn": "异常循环激素浓度"
+      },
+      {
+        "hpoId": "HP:0008373",
+        "nameCn": "青春期和性腺疾病"
+      },
+      {
+        "hpoId": "HP:0012029",
+        "nameCn": "尿激素水平异常"
+      },
+      {
+        "hpoId": "HP:0012093",
+        "nameCn": "内分泌胰腺生理异常"
+      },
+      {
+        "hpoId": "HP:0031072",
+        "nameCn": "异常内分泌生理"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0001197",
+    "categoryName": "产前发育或出生异常",
+    "childCount": 9,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0001194",
+        "nameCn": "胎盘或脐带异常"
+      },
+      {
+        "hpoId": "HP:0001560",
+        "nameCn": "羊水异常"
+      },
+      {
+        "hpoId": "HP:0001622",
+        "nameCn": "早产"
+      },
+      {
+        "hpoId": "HP:0001787",
+        "nameCn": "异常分娩"
+      },
+      {
+        "hpoId": "HP:0030917",
+        "nameCn": "Apgar评分低"
+      },
+      {
+        "hpoId": "HP:0031169",
+        "nameCn": "过期妊娠"
+      },
+      {
+        "hpoId": "HP:0033334",
+        "nameCn": "胚胎发育异常"
+      },
+      {
+        "hpoId": "HP:0034057",
+        "nameCn": "胎儿异常"
+      },
+      {
+        "hpoId": "HP:6000224",
+        "nameCn": "胎粪排出延迟"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0001507",
+    "categoryName": "生长异常",
+    "childCount": 7,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0000002",
+        "nameCn": "身高异常"
+      },
+      {
+        "hpoId": "HP:0001510",
+        "nameCn": "生长延迟"
+      },
+      {
+        "hpoId": "HP:0004323",
+        "nameCn": "体重异常"
+      },
+      {
+        "hpoId": "HP:0030853",
+        "nameCn": "异位"
+      },
+      {
+        "hpoId": "HP:0033794",
+        "nameCn": "肢端过度生长"
+      },
+      {
+        "hpoId": "HP:0041079",
+        "nameCn": "体脂百分比降低"
+      },
+      {
+        "hpoId": "HP:0100555",
+        "nameCn": "不对称生长"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0001574",
+    "categoryName": "皮肤异常",
+    "childCount": 3,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0000951",
+        "nameCn": "皮肤异常"
+      },
+      {
+        "hpoId": "HP:0011138",
+        "nameCn": "皮肤附属器的异常形态"
+      },
+      {
+        "hpoId": "HP:0025276",
+        "nameCn": "皮肤附属器生理异常"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0001608",
+    "categoryName": "嗓音异常",
+    "childCount": 9,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0001609",
+        "nameCn": "声音沙哑"
+      },
+      {
+        "hpoId": "HP:0001611",
+        "nameCn": "低声说话"
+      },
+      {
+        "hpoId": "HP:0001618",
+        "nameCn": "发音障碍"
+      },
+      {
+        "hpoId": "HP:0001621",
+        "nameCn": "声音微弱"
+      },
+      {
+        "hpoId": "HP:0001686",
+        "nameCn": "失声"
+      },
+      {
+        "hpoId": "HP:0009088",
+        "nameCn": "言语清晰困难"
+      },
+      {
+        "hpoId": "HP:0025429",
+        "nameCn": "异常哭声"
+      },
+      {
+        "hpoId": "HP:0031801",
+        "nameCn": "声带功能障碍"
+      },
+      {
+        "hpoId": "HP:0100271",
+        "nameCn": "低鼻音言语"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0001626",
+    "categoryName": "心血管系统异常",
+    "childCount": 4,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0002597",
+        "nameCn": "血管系统的异常"
+      },
+      {
+        "hpoId": "HP:0011025",
+        "nameCn": "心血管系统的异常生理"
+      },
+      {
+        "hpoId": "HP:0030680",
+        "nameCn": "心血管系统的异常形态"
+      },
+      {
+        "hpoId": "HP:0500015",
+        "nameCn": "异常的心脏测试"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0001871",
+    "categoryName": "血液和造血组织异常",
+    "childCount": 10,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0001872",
+        "nameCn": "血小板异常"
+      },
+      {
+        "hpoId": "HP:0001877",
+        "nameCn": "红细胞形态异常"
+      },
+      {
+        "hpoId": "HP:0001881",
+        "nameCn": "白细胞形态异常"
+      },
+      {
+        "hpoId": "HP:0001892",
+        "nameCn": "异常出血"
+      },
+      {
+        "hpoId": "HP:0001928",
+        "nameCn": "凝血异常"
+      },
+      {
+        "hpoId": "HP:0001977",
+        "nameCn": "异常血栓形成"
+      },
+      {
+        "hpoId": "HP:0001978",
+        "nameCn": "髓外造血"
+      },
+      {
+        "hpoId": "HP:0004377",
+        "nameCn": "血液系统肿瘤"
+      },
+      {
+        "hpoId": "HP:0005561",
+        "nameCn": "异常骨髓细胞形态"
+      },
+      {
+        "hpoId": "HP:0020054",
+        "nameCn": "异常红细胞生理"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0001939",
+    "categoryName": "新陈代谢/稳态异常",
+    "childCount": 16,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0001946",
+        "nameCn": "酮病"
+      },
+      {
+        "hpoId": "HP:0003110",
+        "nameCn": "尿液稳态异常"
+      },
+      {
+        "hpoId": "HP:0011017",
+        "nameCn": "细胞生理异常"
+      },
+      {
+        "hpoId": "HP:0011034",
+        "nameCn": "淀粉样变性"
+      },
+      {
+        "hpoId": "HP:0012337",
+        "nameCn": "异常稳态"
+      },
+      {
+        "hpoId": "HP:0020169",
+        "nameCn": "异常药物反应"
+      },
+      {
+        "hpoId": "HP:0025021",
+        "nameCn": "异常红细胞沉降率"
+      },
+      {
+        "hpoId": "HP:0025454",
+        "nameCn": "脑脊液代谢物浓度异常"
+      },
+      {
+        "hpoId": "HP:0025456",
+        "nameCn": "脑脊液蛋白浓度异常"
+      },
+      {
+        "hpoId": "HP:0031685",
+        "nameCn": "异常粪便组成"
+      },
+      {
+        "hpoId": "HP:0032180",
+        "nameCn": "循环代谢物浓度异常"
+      },
+      {
+        "hpoId": "HP:0032243",
+        "nameCn": "组织代谢物的异常浓度"
+      },
+      {
+        "hpoId": "HP:0032245",
+        "nameCn": "异常新陈代谢"
+      },
+      {
+        "hpoId": "HP:0033331",
+        "nameCn": "急性期反应"
+      },
+      {
+        "hpoId": "HP:0034684",
+        "nameCn": "异常酶浓度或活性"
+      },
+      {
+        "hpoId": "HP:0430030",
+        "nameCn": "传染性病原体检测阳性"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0002086",
+    "categoryName": "呼吸系统异常",
+    "childCount": 1,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0002795",
+        "nameCn": "异常的呼吸系统生理学"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0002664",
+    "categoryName": "肿瘤",
+    "childCount": 2,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0011792",
+        "nameCn": "按组织学分类的肿瘤"
+      },
+      {
+        "hpoId": "HP:0011793",
+        "nameCn": "按解剖部位的肿瘤"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0002715",
+    "categoryName": "免疫系统的异常",
+    "childCount": 2,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0010978",
+        "nameCn": "免疫系统生理异常"
+      },
+      {
+        "hpoId": "HP:0032251",
+        "nameCn": "免疫系统的异常形态"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0025031",
+    "categoryName": "消化系统异常",
+    "childCount": 6,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0001438",
+        "nameCn": "腹部形态异常"
+      },
+      {
+        "hpoId": "HP:0002012",
+        "nameCn": "腹部器官异常"
+      },
+      {
+        "hpoId": "HP:0004298",
+        "nameCn": "腹壁异常"
+      },
+      {
+        "hpoId": "HP:0004378",
+        "nameCn": "肛门的异常"
+      },
+      {
+        "hpoId": "HP:0011024",
+        "nameCn": "胃肠道的异常"
+      },
+      {
+        "hpoId": "HP:0025032",
+        "nameCn": "消化系统的生理异常"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0025142",
+    "categoryName": "全身症状",
+    "childCount": 19,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0001699",
+        "nameCn": "猝死"
+      },
+      {
+        "hpoId": "HP:0003546",
+        "nameCn": "运动不耐受"
+      },
+      {
+        "hpoId": "HP:0012378",
+        "nameCn": "疲劳"
+      },
+      {
+        "hpoId": "HP:0012531",
+        "nameCn": "疼痛"
+      },
+      {
+        "hpoId": "HP:0025143",
+        "nameCn": "寒战"
+      },
+      {
+        "hpoId": "HP:0025144",
+        "nameCn": "颤抖"
+      },
+      {
+        "hpoId": "HP:0025406",
+        "nameCn": "虚弱"
+      },
+      {
+        "hpoId": "HP:0030166",
+        "nameCn": "夜汗"
+      },
+      {
+        "hpoId": "HP:0031058",
+        "nameCn": "日常生活活动损害"
+      },
+      {
+        "hpoId": "HP:0031217",
+        "nameCn": "热潮红"
+      },
+      {
+        "hpoId": "HP:0031352",
+        "nameCn": "胸闷"
+      },
+      {
+        "hpoId": "HP:0033047",
+        "nameCn": "身体疼痛"
+      },
+      {
+        "hpoId": "HP:0033665",
+        "nameCn": "健康相关生活质量的减退"
+      },
+      {
+        "hpoId": "HP:0033834",
+        "nameCn": "不适"
+      },
+      {
+        "hpoId": "HP:0033850",
+        "nameCn": "寒冷"
+      },
+      {
+        "hpoId": "HP:0100247",
+        "nameCn": "复发性呃逆"
+      },
+      {
+        "hpoId": "HP:0100758",
+        "nameCn": "坏疽"
+      },
+      {
+        "hpoId": "HP:0100812",
+        "nameCn": "口臭"
+      },
+      {
+        "hpoId": "HP:0500001",
+        "nameCn": "体臭"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0025354",
+    "categoryName": "异常细胞表型",
+    "childCount": 2,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0025461",
+        "nameCn": "细胞形态异常"
+      },
+      {
+        "hpoId": "HP:0031550",
+        "nameCn": "异常流式细胞术检测结果"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0033127",
+    "categoryName": "肌肉骨骼系统的异常",
+    "childCount": 4,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0000924",
+        "nameCn": "骨骼系统异常"
+      },
+      {
+        "hpoId": "HP:0003011",
+        "nameCn": "肌肉异常"
+      },
+      {
+        "hpoId": "HP:0003549",
+        "nameCn": "结缔组织异常"
+      },
+      {
+        "hpoId": "HP:0011843",
+        "nameCn": "异常肌肉骨骼生理"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0040064",
+    "categoryName": "四肢异常",
+    "childCount": 5,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0001218",
+        "nameCn": "自动截肢"
+      },
+      {
+        "hpoId": "HP:0001528",
+        "nameCn": "半身肥大症"
+      },
+      {
+        "hpoId": "HP:0002814",
+        "nameCn": "下肢异常"
+      },
+      {
+        "hpoId": "HP:0002817",
+        "nameCn": "上肢异常"
+      },
+      {
+        "hpoId": "HP:6000818",
+        "nameCn": "横向末端肢体缺损"
+      }
+    ]
+  },
+  {
+    "categoryId": "HP:0045027",
+    "categoryName": "胸腔异常",
+    "childCount": 1,
+    "hpoItems": [
+      {
+        "hpoId": "HP:0045026",
+        "nameCn": "纵隔形态异常"
+      }
+    ]
+  }
+]
