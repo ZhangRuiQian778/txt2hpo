@@ -113,37 +113,45 @@ export function ExactMatchPage() {
     const results: ExactMatchResult[] = [];
     const seenHpoIds = new Set<string>();
 
+    const pushResult = (hpoId: string, fallbackNameCn?: string) => {
+      if (!hpoId || excludedHpoIdSet.has(hpoId) || seenHpoIds.has(hpoId)) {
+        return;
+      }
+      seenHpoIds.add(hpoId);
+
+      const detail = hpoDataById.get(hpoId);
+      if (detail) {
+        results.push({
+          hpoId: detail.hpoId,
+          nameEn: detail.nameEn,
+          nameCn: detail.nameCn,
+          description: detail.definitionZh,
+          definition: detail.definition,
+        });
+        return;
+      }
+
+      // 兜底：若明细还在加载，先展示分类里的中文名；若已加载仍缺失，则提示缺失
+      results.push({
+        hpoId,
+        nameEn: '',
+        nameCn: fallbackNameCn || hpoId,
+        description: hpoDataLoading ? '' : '（未在 hpo_data.json 找到明细）',
+        definition: '',
+      });
+    };
+
     for (const categoryId of selectedCategoryIds) {
       const category = categoryById.get(categoryId);
       if (!category) {
         continue;
       }
-      for (const item of category.hpoItems) {
-        const hpoId = item.hpoId;
-        if (!hpoId || excludedHpoIdSet.has(hpoId) || seenHpoIds.has(hpoId)) {
-          continue;
-        }
-        seenHpoIds.add(hpoId);
 
-        const detail = hpoDataById.get(hpoId);
-        if (detail) {
-          results.push({
-            hpoId: detail.hpoId,
-            nameEn: detail.nameEn,
-            nameCn: detail.nameCn,
-            description: detail.definitionZh,
-            definition: detail.definition,
-          });
-        } else {
-          // 兜底：若明细还在加载，先展示分类里的中文名；若已加载仍缺失，则提示缺失
-          results.push({
-            hpoId,
-            nameEn: '',
-            nameCn: item.nameCn || hpoId,
-            description: hpoDataLoading ? '' : '（未在 hpo_data.json 找到明细）',
-            definition: '',
-          });
-        }
+      // 选中分类时，将“分类自身的 HPO ID”也加入结果（与其第三级子节点一起展示）
+      pushResult(category.categoryId, category.categoryName);
+
+      for (const item of category.hpoItems) {
+        pushResult(item.hpoId, item.nameCn);
       }
     }
 
@@ -321,7 +329,7 @@ export function ExactMatchPage() {
                     <div style={{ display: 'flex', gap: '8px', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                       <span style={{ flex: 1 }}>{category.categoryName}</span>
                       <span style={{ fontSize: 'var(--font-size-xs)', opacity: 0.85 }}>
-                        {category.childCount}
+                        {category.childCount + 1}
                       </span>
                     </div>
                   </Button>
